@@ -18,48 +18,27 @@ body {
 // styles for slider-background //
 
 .red-background {
-  background: linear-gradient(315deg, #ae320a 19.87%, #f75d2b 80.11%), #0a0e20;
+  background: url("../images/red-image.svg") right no-repeat,
+    linear-gradient(315deg, #ae320a 19.87%, #f75d2b 80.11%), #0a0e20;
   color: #fff;
   outline: none;
 }
 
 .green-background {
-  background: linear-gradient(315deg, #37c058 19.87%, #4bdb6d 80.11%), #0a0e20;
+  background: url("../images/green-image.svg") right no-repeat,
+    linear-gradient(315deg, #37c058 19.87%, #4bdb6d 80.11%), #0a0e20;
   color: #fff;
 }
 .sand-background {
-  background: linear-gradient(315deg, #ffc060 19.87%, #ffe79a 80.11%), #0a0e20;
+  background: url("../images/sand-image.svg") right no-repeat,
+    linear-gradient(315deg, #ffc060 19.87%, #ffe79a 80.11%), #0a0e20;
   color: #000;
 }
 
 .lemon-background {
-  background: linear-gradient(315deg, #8fbe15 19.87%, #aad50e 80.11%), #0a0e20;
+  background: url("../images/lemon-image.svg") right no-repeat,
+    linear-gradient(315deg, #8fbe15 19.87%, #aad50e 80.11%), #0a0e20;
   color: #fff;
-}
-
-.red-svg {
-  background-image: url("../images/red-image.svg");
-  background-position: bottom right;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.green-svg {
-  background-image: url("../images/green-image.svg");
-  background-position: bottom right;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.sand-svg {
-  background-image: url("../images/sand-image.svg");
-  background-position: bottom right;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.lemon-svg {
-  background-image: url("../images/lemon-image.svg");
-  background-position: bottom right;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 // styles for content //
