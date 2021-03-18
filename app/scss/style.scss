@@ -6,13 +6,16 @@
 
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 .container {
-  max-width: 1440px;
-  padding: 0 50px;
+  max-width: 1200px;
+  margin: 0 auto;
   height: 100vh;
 }
+
+// styles for slider-background //
 
 .red-background {
   background: linear-gradient(315deg, #ae320a 19.87%, #f75d2b 80.11%), #0a0e20;
@@ -33,4 +36,108 @@ body {
 .lemon-background {
   background: linear-gradient(315deg, #8fbe15 19.87%, #aad50e 80.11%), #0a0e20;
   color: #fff;
+}
+
+// styles for content //
+
+.item__header {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  &-logo {
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 26px;
+      font-weight: bold;
+    }
+  }
+  &-btn {
+    a {
+      text-decoration: none;
+      color: #fff;
+      padding: 10px 19px;
+      display: inline-block;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+      background: transparent;
+      border: 1px solid #fff;
+      border-radius: 4px;
+    }
+  }
+}
+
+.item__content {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  &-advantages {
+    max-width: 500px;
+    width: 100%;
+  }
+  &-advertisers {
+    max-width: 500px;
+    width: 100%;
+    align-self: flex-start;
+  }
+}
+
+.content-advantages {
+  padding: 0 10px;
+  &__title {
+    font-size: 46px;
+    line-height: 54px;
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+  &__textbox {
+    margin-top: 25px;
+  }
+  &__subtitle {
+    font-weight: bold;
+    font-style: 20px;
+    line-height: 28px;
+  }
+  &__text {
+    font-weight: normal;
+    font-style: 20px;
+    line-height: 28px;
+  }
+}
+
+.content__advertisers {
+  padding: 0 10px;
+  &-box {
+    margin-bottom: 25px;
+  }
+  &-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  &-text {
+    font-size: 84px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -4px;
+  }
+  &-btn {
+    a {
+      text-decoration: none;
+      color: #fff;
+      padding: 12px 25px;
+      display: inline-block;
+      font-size: 30px;
+      line-height: 38px;
+      font-weight: bold;
+      background: transparent;
+      border: 1px solid #fff;
+      border-radius: 4px;
+    }
+  }
 }
