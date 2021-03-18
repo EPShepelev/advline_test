@@ -4,15 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 .container {
   max-width: 1440px;
   padding: 0 50px;
   height: 100vh;
-}
-
-.slider__items {
-  width: 100%;
-  position: relative;
 }
 
 .red-background {
