@@ -1,0 +1,38 @@
+@media (max-width: 1300px) {
+  .container {
+    max-width: 1100px;
+    padding: 0 20px;
+  }
+
+  .content-advantages {
+    &__title {
+      font-size: 32px;
+      line-height: 48px;
+    }
+    &__textbox {
+      margin-top: 30px;
+    }
+    &__subtitle {
+      font-size: 18px;
+    }
+    &__text {
+      font-size: 18px;
+    }
+  }
+
+  .content__advertisers {
+    &-box {
+      margin-bottom: 30px;
+    }
+    &-title {
+      font-size: 18px;
+    }
+    &-text {
+      font-size: 62px;
+    }
+  }
+
+  .slick-dots {
+    left: 100px;
+  }
+}

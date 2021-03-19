@@ -108,12 +108,12 @@ body {
   }
   &__subtitle {
     font-weight: bold;
-    font-style: 20px;
+    font-size: 20px;
     line-height: 28px;
   }
   &__text {
     font-weight: normal;
-    font-style: 20px;
+    font-size: 20px;
     line-height: 28px;
   }
 }
@@ -145,6 +145,7 @@ body {
       background: transparent;
       border: 1px solid #fff;
       border-radius: 4px;
+      z-index: 5;
     }
   }
 }
@@ -154,6 +155,7 @@ body {
 .slick-dots {
   top: 195px;
   left: 160px;
+  z-index: 1;
   button::before {
     background: #fff;
     border: none;
@@ -177,3 +179,7 @@ body {
   margin-bottom: 0;
   overflow: hidden;
 }
+
+@import "tablet-1300.scss";
+@import "tablet-960.scss";
+@import "tablet-768.scss";
