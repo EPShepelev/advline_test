@@ -42,7 +42,8 @@
   }
 
   .slick-dots {
-    top: 325px;
-    left: -50px;
+    width: 150px;
+    left: calc(50%-150px);
+    top: 310px;
   }
 }
